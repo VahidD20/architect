@@ -54,6 +54,12 @@ img{
     padding: 1.3rem;
     padding-bottom: 1rem;
     box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.2);
+
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
 }
 
 .main_header::after{
@@ -129,6 +135,7 @@ img{
 .image_header{
     position: relative;
     top: 0.1rem;
+    padding-top: 3.5rem;
 }
 
 .image_header > img{
