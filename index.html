@@ -13,7 +13,7 @@
             <div class="top_header">
                 <div class="title">
                     <nav>
-                        <a href="/">
+                        <a href="/" title="home_link">
                             <b>BR</b> Architects
                         </a>
                     </nav>
@@ -22,13 +22,13 @@
                 <div class="list">
                     <ul class="list_items">
                         <li>
-                            <a href="/">Projects</a>
+                            <a href="/" title="projects">Projects</a>
                         </li>
                         <li>
-                            <a href="/">About</a>
+                            <a href="/" title="about">About</a>
                         </li>
                         <li>
-                            <a href="/">contact</a>
+                            <a href="/" title="contact">contact</a>
                         </li>
                     </ul>
                 </div>
@@ -38,56 +38,60 @@
     <main>
         <div class="image_header">
             <img src="images/architect.jpg" alt="building" width="300" height="135">
-            <div>
+            <div class="br_text">
                 BR
             </div>
-            <span>
+            <div class="arch_text">
                 Architects
-            </span>
-        </div>
-        <div class="first_section">
-            <div>
-                Projects
             </div>
+        </div>
+        <section class="first_section">
+            <header class="section_headers">
+                <h1>
+                    Projects
+                </h1>
+            </header>
             <div class="images_part_one">
                 <div>
                     <img src="images/house1.jpg" alt="summer house" width="350" height="120">
-                    <div>Summer house</div> 
+                    <div class="img_text">Summer house</div> 
                 </div>
                 <div>
                     <img src="images/house2.jpg" alt="brick house" width="350" height="120">
-                    <div>Brick house</div>
+                    <div class="img_text">Brick house</div>
                 </div>
                 <div>
                     <img src="images/house3.jpg" alt="renovated" width="350" height="120">
-                    <div>Renovated</div>
+                    <div class="img_text">Renovated</div>
                 </div>
                 <div>
                     <img src="images/house4.jpg" alt="barn house" width="350" height="120">
-                    <div>Barn house</div>
+                    <div class="img_text">Barn house</div>
                 </div>
                 <div>
                     <img src="images/house2.jpg" alt="summer house" width="350" height="120">
-                    <div>Summer house</div>
+                    <div class="img_text">Summer house</div>
                 </div>
                 <div>
                     <img src="images/house1.jpg" alt="brick house" width="350" height="120">
-                    <div>Brick house</div>
+                    <div class="img_text">Brick house</div>
                 </div>
                 <div>
                     <img src="images/house4.jpg" alt="renovated" width="350" height="120">
-                    <div>Renovated</div>
+                    <div class="img_text">Renovated</div>
                 </div>
                 <div>
                     <img src="images/house3.jpg" alt="barn house" width="350" height="120">
-                    <div>Barn house</div>
+                    <div class="img_text">Barn house</div>
                 </div>
             </div>    
-        </div>
-        <div class="second_section">
-            <div class="about_title">
-                About
-            </div>
+        </section>
+        <section class="second_section">
+            <header class="section_headers">
+                <h1>
+                    About
+                </h1>    
+            </header>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                Ut enim ad minim veniam, 
@@ -101,7 +105,7 @@
             </p>
             <div class="teams">
                 <div class="team_one">
-                    <img src="images/john doe.jpg" alt="john" width="350" height="120">
+                    <img src="images/JohnDoe.jpg" alt="john" width="350" height="120">
                     <div>
                         John Doe
                     </div>
@@ -119,7 +123,7 @@
                     </p>
                 </div>
                 <div class="team_one">
-                    <img src="images/jane doe.jpg" alt="jane" width="350" height="120">
+                    <img src="images/JaneDoe.jpg" alt="jane" width="350" height="120">
                     <div>
                         Jane Doe
                     </div>
@@ -137,7 +141,7 @@
                     </p>
                 </div>
                 <div class="team_one">
-                    <img src="images/mike ross.jpg" alt="mike" width="350" height="120">
+                    <img src="images/MikeRoss.jpg" alt="mike" width="350" height="120">
                     <div>
                         Mike Ross
                     </div>
@@ -155,7 +159,7 @@
                     </p>
                 </div>
                 <div class="team_one">
-                    <img src="images/dan star.jpg" alt="dan" width="350" height="120">
+                    <img src="images/DanStar.jpg" alt="dan" width="350" height="120">
                     <div>
                         Dan Star
                     </div>
@@ -173,27 +177,27 @@
                     </p>
                 </div>
             </div>    
-        </div>
-        <div class="third_section">
-            <div>
-                Contact
-            </div>
+        </section>
+        <section class="third_section">
+            <header class="section_headers">
+                <h1>
+                    Contact
+                </h1>    
+            </header>
             <p>
                 Lets get in touch and talk about your next project.
             </p>
             <form action="#" class="main_form">
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="Subject">
-                <input type="text" placeholder="Comment">
+                <input type="text" name="name" value="fname" placeholder="Name">
+                <input type="text" name="email" value="mail" placeholder="Email">
+                <input type="text" name="subject" value="sub" placeholder="Subject">
+                <input type="text" name="comment" value="comment" placeholder="Comment">
                 <button>
-                    <a href="/">
                         SEND MESSAGE
-                    </a>
                 </button>
             </form>
-            <img src="images/map.jpg" alt="map">
-        </div>
+            <img src="images/map.jpg" alt="map" width="360" height="150">
+        </section>
     </main>
 
     <footer class="footer">
